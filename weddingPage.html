@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trial</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-firestore.js"></script>
+</head>
+
+<body>
+    <div class="category">
+        <button onclick="assignCategory('all')">all</button>
+        <button onclick="assignCategory('two_page_invite')">two_page_invite</button>
+        <button onclick="assignCategory('full_length_card')">full_length_card</button>
+        <button onclick="assignCategory('sangeet')">sangeet</button>
+        <button onclick="assignCategory('mehndi')" >mehndi </button>
+        <button onclick="assignCategory('reception')">reception</button>
+        <button onclick="assignCategory('save_the_date')">save_the_date</button>
+    </div>
+    <div class="sub-category">
+        <button onclick="assignSubCategory('all')">all</button>
+        <button onclick="assignSubCategory('hindu')">hindu</button>
+        <button onclick="assignSubCategory('sikh')">sikh</button>
+        <button onclick="assignSubCategory('muslim')">muslim</button>
+        <button onclick="assignSubCategory('bengali')">bengali</button>
+        <button onclick="assignSubCategory('marathi')">marathi</button>
+        <button onclick="assignSubCategory('south_indian')">south_indian</button>
+        <button onclick="assignSubCategory('general')">general</button>
+    </div>
+
+
+    <div class="output_area" id="output__area">
+        
+    </div>
+</body>
+<script>
+    
+
+</script>
+<script src="./script.js"></script>
+
+</html>
